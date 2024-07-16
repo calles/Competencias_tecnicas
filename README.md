@@ -1,4 +1,4 @@
-"# Competencias_tecnicas" 
+# Competencias Técnicas
 
 1. SQL Server (SQL Server maintenance solution, Backpac, Filesteam).
 2.  Windows Server (Active Directory, DNS, DHCP, IIS, Remote desktop service, File and storage service).
