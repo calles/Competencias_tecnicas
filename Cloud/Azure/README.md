@@ -1,5 +1,5 @@
 # Azure
-![image](https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/images/compute-choices.png)
+![image](https://i1.wp.com/blog.threeandahalfroses.com/wp-content/uploads/2020/06/azure-bcm-1.png?ssl=1)
 
 ## Instalador de Azure CLI para Windows
 La interfaz de línea de comandos (CLI) de Azure es una herramienta de línea de comandos multiplataforma que se puede instalar localmente en equipos Windows. Puede usar la CLI de Azure para Windows para conectarse a Azure y ejecutar comandos administrativos en los recursos de Azure.
