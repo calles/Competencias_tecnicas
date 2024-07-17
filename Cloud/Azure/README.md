@@ -1,13 +1,7 @@
-<<<<<<< HEAD
 # Cuenta Azure
-=======
 # Azure
 ![image](https://i1.wp.com/blog.threeandahalfroses.com/wp-content/uploads/2020/06/azure-bcm-1.png?ssl=1)
->>>>>>> 1072c9ae3269f08acea8b68c20a16638188edfb0
 
-
-<<<<<<< HEAD
-=======
 Descarga -> https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli
 
 Este comando nos permite iniciar/cerrar sesión desde Powershell a nuestra cuenta de Azure.
