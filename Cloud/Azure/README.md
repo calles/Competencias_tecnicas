@@ -25,4 +25,4 @@ func -version
 ```
 ```
 func
->>>>>>> 1072c9ae3269f08acea8b68c20a16638188edfb0
+```
