@@ -1,6 +1,9 @@
 # Create an Azure Virtual Machine with Terraform 
 
 ```
+main.tf
+```
+```
 provider   "azurerm"   { 
    version   =   "= 2.0.0" 
    features   {} 
