@@ -21,3 +21,19 @@ smbclient -L [IP]
 ```
 smbclient '\\[IP]\[WorkShares]'
 ```
+## REDIS (BD)
+```
+redis-cli -h [IP] -p 6379
+```
+```
+redis-cli -h [IP] -p 6379
+```
+```
+> info
+```
+```
+keys *
+```
+```
+get [name key]
+```
