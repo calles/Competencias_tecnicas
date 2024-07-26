@@ -32,8 +32,8 @@ redis-cli -h [IP] -p 6379
 > info
 ```
 ```
-keys *
+> keys *
 ```
 ```
-get [name key]
+> get [name key]
 ```
