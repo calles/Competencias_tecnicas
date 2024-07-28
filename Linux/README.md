@@ -1,19 +1,25 @@
 # Redes
 ## NMAP
 ```
+sudo apt-get install nmap
+```
+```
 nmap -p- -sV -sC --open -sS -vvv -n -Pn [IP]
 ```
-## TELNET
+## TELNET (CONECTION)
 ```
 telnet [IP]
 ```
-## FTP
+## FTP (CONECTION)
 ```
 ftp [IP]
 ```
-## SMB
+## SMB (CONECTION)
 ```
 nmap -p 139,445 -n -Pn -T5 10.129.206.119 --open -sV -sC -O
+```
+```
+sudo apt install smbclient
 ```
 ```
 smbclient -L [IP]
@@ -21,7 +27,10 @@ smbclient -L [IP]
 ```
 smbclient '\\[IP]\[WorkShares]'
 ```
-## REDIS (BD)
+## REDIS DB (CLIENT)
+```
+sudo apt install redis-tools
+```
 ```
 redis-cli -h [IP] -p 6379
 ```
@@ -36,4 +45,26 @@ redis-cli -h [IP] -p 6379
 ```
 ```
 > get [name key]
+```
+## MARIADB (CLIENT)
+```
+sudo apt install mariadb-client
+```
+```
+mariadb -h [IP] -u [user]
+```
+```
+> show databases;
+```
+```
+> use [database];
+```
+```
+> show tables;
+```
+```
+> use [table];
+```
+```
+> select * from [table];
 ```
