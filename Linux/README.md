@@ -68,3 +68,13 @@ mariadb -h [IP] -u [user]
 ```
 > select * from [table];
 ```
+## GOBUSTER
+```
+sudo apt install gobuster 
+```
+```
+DOWNLOAD: https://github.com/digination/dirbuster-ng/blob/master/wordlists/common.txt
+```
+```
+gobuster dir -u http://[IP]:[PORT] -x .php -w [PATH-WORDLIST]
+```
