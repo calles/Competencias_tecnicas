@@ -78,3 +78,15 @@ DOWNLOAD: https://github.com/digination/dirbuster-ng/blob/master/wordlists/commo
 ```
 gobuster dir -u http://[IP]:[PORT] -x .php -w [PATH-WORDLIST]
 ```
+## RESPONDER
+```
+responder-I [NetworkInterface]
+```
+## WINRM
+```
+evil-winrm -i [IP] -u [USER] -p [PASS]
+```
+## JOHN 
+```
+john -w=/usr/share/wordlists/rockyou.txt hash.txt
+```
